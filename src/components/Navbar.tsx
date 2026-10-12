@@ -16,15 +16,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onScrollTo }) => 
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
+    <header className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between gap-8 h-20">
+        <div className="flex items-center justify-between gap-2 sm:gap-6 lg:gap-8 h-16 sm:h-20">
           {/* Zone 1: Single text element Brand Wordmark */}
           <button
             type="button"
             onClick={() => handleNavClick('hero')}
             id="nav-brand-logo"
-            className="text-lg sm:text-xl font-black tracking-tight text-slate-900 hover:text-emerald-600 transition-colors whitespace-nowrap shrink-0 cursor-pointer"
+            className="text-sm sm:text-xl font-black tracking-tight text-slate-900 hover:text-emerald-600 transition-colors truncate cursor-pointer"
           >
             Jeddah Junk Removal Service
           </button>

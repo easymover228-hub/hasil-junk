@@ -43,7 +43,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 flex flex-col selection:bg-emerald-500 selection:text-white pb-14 sm:pb-0">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-white text-slate-900 flex flex-col selection:bg-emerald-500 selection:text-white pb-14 sm:pb-0">
       {/* Top 3-Zone Navigation Bar */}
       <Navbar
         onOpenBooking={() => handleOpenBooking()}
@@ -51,7 +51,7 @@ export default function App() {
       />
 
       {/* Main Content Sections */}
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         {/* Hero Section with 3D Showcase & Instant WhatsApp Dispatch */}
         <Hero
           onOpenBooking={handleOpenBooking}

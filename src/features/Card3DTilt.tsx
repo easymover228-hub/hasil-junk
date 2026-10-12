@@ -11,12 +11,7 @@ export const Card3DTilt: React.FC<Card3DTiltProps> = ({
   className = '',
 }) => {
   return (
-    <div
-      style={{
-        transformStyle: 'preserve-3d',
-      }}
-      className={`relative transition-shadow duration-200 ${className}`}
-    >
+    <div className={`relative min-w-0 transition-shadow duration-200 ${className}`}>
       {children}
     </div>
   );
