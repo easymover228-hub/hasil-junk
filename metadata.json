@@ -1,0 +1,6 @@
+{
+  "name": "Fast Junk Removal Experts",
+  "description": "Fast, affordable, and eco-friendly same-day junk removal, hauling, and cleanout services with instant online estimates and transparent pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
