@@ -1,17 +1,28 @@
 import { ServiceItem, TruckTier, QuickCalcItem, BeforeAfterProject, CustomerReview, FaqItem } from '../types';
+import heroTeamImg from '../assets/images/hero_male_team_jeddah_1791764441853.jpg';
+import heroTruckCleanImg from '../assets/images/real_hero_truck_clean_1791762925559.jpg';
+import furnitureMovingImg from '../assets/images/feature_furniture_appliance_1791727381470.jpg';
+import applianceHaulingImg from '../assets/images/real_appliance_hauling_1791762935382.jpg';
+import garageCleanoutImg from '../assets/images/real_garage_cleanout_1791762944907.jpg';
+import commercialOfficeImg from '../assets/images/feature_commercial_office_1791727396739.jpg';
+import constructionDebrisImg from '../assets/images/feature_construction_demolition_1791727406337.jpg';
+import shedDemolitionImg from '../assets/images/real_shed_demolition_1791762967052.jpg';
+import yardStormWasteImg from '../assets/images/real_yard_storm_waste_1791762955786.jpg';
+import ecoRecyclingImg from '../assets/images/feature_eco_recycling_1791727419535.jpg';
+import propertyCleanoutImg from '../assets/images/feature_property_cleanout_1791727435515.jpg';
 
 export const REAL_IMAGES = {
-  heroTeam: '/src/assets/images/hero_male_team_jeddah_1791764441853.jpg',
-  heroTruckClean: '/src/assets/images/real_hero_truck_clean_1791762925559.jpg',
-  furnitureMoving: '/src/assets/images/feature_furniture_appliance_1791727381470.jpg',
-  applianceHauling: '/src/assets/images/real_appliance_hauling_1791762935382.jpg',
-  garageCleanout: '/src/assets/images/real_garage_cleanout_1791762944907.jpg',
-  commercialOffice: '/src/assets/images/feature_commercial_office_1791727396739.jpg',
-  constructionDebris: '/src/assets/images/feature_construction_demolition_1791727406337.jpg',
-  shedDemolition: '/src/assets/images/real_shed_demolition_1791762967052.jpg',
-  yardStormWaste: '/src/assets/images/real_yard_storm_waste_1791762955786.jpg',
-  ecoRecycling: '/src/assets/images/feature_eco_recycling_1791727419535.jpg',
-  propertyCleanout: '/src/assets/images/feature_property_cleanout_1791727435515.jpg',
+  heroTeam: heroTeamImg,
+  heroTruckClean: heroTruckCleanImg,
+  furnitureMoving: furnitureMovingImg,
+  applianceHauling: applianceHaulingImg,
+  garageCleanout: garageCleanoutImg,
+  commercialOffice: commercialOfficeImg,
+  constructionDebris: constructionDebrisImg,
+  shedDemolition: shedDemolitionImg,
+  yardStormWaste: yardStormWasteImg,
+  ecoRecycling: ecoRecyclingImg,
+  propertyCleanout: propertyCleanoutImg,
 };
 
 // Preload all compressed images in the background so transitions & scrolling are instant
